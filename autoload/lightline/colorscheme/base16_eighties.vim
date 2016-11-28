@@ -22,7 +22,7 @@ let s:gui0E = "#cc99cc"
 let s:gui0F = "#d27b53"
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
-let s:p.normal.left = [ [ s:gui01, s:blue ], [ s:gui05, s:gui03 ] ]
+let s:p.normal.left = [ [ s:gui01, s:gui0D ], [ s:gui05, s:gui03 ] ]
 let s:p.normal.right = [ [ s:gui01, s:gui04 ], [ s:gui04, s:gui03 ] ]
 let s:p.inactive.right = [ [ s:gui01, s:gui03 ], [ s:gui04, s:gui03 ] ]
 let s:p.inactive.left =  [ [ s:gui01, s:gui03 ], [ s:gui03, s:gui02 ] ]
